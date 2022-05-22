@@ -36,7 +36,10 @@ cat << EOF > /etc/v2ray/config.json
             },
             "streamSettings": {
                 "network": "ws",
-                "security": "none"
+                "security": "none",
+                "wsSettings": {
+        "path": "/cabba"
+        }
             }
         }
     ],
